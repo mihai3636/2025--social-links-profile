@@ -1,0 +1,21 @@
+@use "./utils" as *;
+
+:root {
+  --ff-main: "Inter", sans-serif;
+
+  --clr-primary: #c5f82a;
+  --clr-white: #fff;
+
+  --clr-grey-light: #333333ff;
+  --clr-grey-normal: #1f1f1fff;
+  --clr-grey-dark: #141414ff;
+
+  --fs-normal: #{toRem(14px)};
+
+  --fw-normal: 400;
+  --fw-bold: 600;
+  --fw-boler: 700;
+
+  --size-desktop: #{toRem(1440px)};
+  --size-mobile: #{toRem(375px)};
+}
